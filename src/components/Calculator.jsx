@@ -179,13 +179,13 @@ export default function Calculator({ values, setValues }) {
       </div>{" "}
       <div>
         <button
-          name="."
+          name="("
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="text-2xl bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className=" bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
-          ·
+          (
         </button>
         <button
           name="0"
@@ -197,13 +197,13 @@ export default function Calculator({ values, setValues }) {
           0
         </button>
         <button
-          name="="
+          name=")"
           onClick={(e) => {
             handleClick(e.target.name);
           }}
           className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
-          =
+          )
         </button>
         <button
           name="="
@@ -212,7 +212,7 @@ export default function Calculator({ values, setValues }) {
           }}
           className="bg-gray-300 /*hover:bg-gray-400*/ w-15 h-15 p-2 mx-2 m-1"
         >
-          &#10240;
+          =
         </button>
       </div>
     </div>
