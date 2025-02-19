@@ -6,6 +6,7 @@ export default function Display({ values }) {
 
   return (
     <div>
+      {/* display the result and the problem */}
       <input
         placeholder="0"
         type="text"

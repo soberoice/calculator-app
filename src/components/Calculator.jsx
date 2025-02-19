@@ -5,18 +5,21 @@ export default function Calculator({ values, setValues }) {
   function handleClick(value) {
     const index = values.length;
     if (value === "Del") {
+      //if statement to selet previous number
       const updatedValues = values.filter((i) => i != values[index - 1]);
       setValues(updatedValues);
       return;
     } else if (value === "CE" || value === "c") {
+      // if statement to clear display
       setValues([]);
       return;
     } else if (value === "=") {
+      //if statement for results
       const result = eval(values.join(" "));
       setValues([result]);
       return;
     }
-
+    // set the values to be displayed
     setValues([...values, value]);
   }
 
