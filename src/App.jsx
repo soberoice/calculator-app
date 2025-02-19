@@ -13,7 +13,7 @@ export default function App() {
           "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
       }}
     >
-      <div className="w-auto bg-gray-100 text-center rounded-2xl bg-opacity-5">
+      <div className="bg-opacity-50 w-auto bg-gray-100 text-center rounded-2xl bg-opacity-5">
         <div className="p-2 py-5">
           <Display values={values} />
           <Calculator values={values} setValues={setValues} />

@@ -43,7 +43,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 p-2 mx-2 m-1 w-15 h-15"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 p-2 mx-2 m-1 w-15 h-15"
         >
           CE
         </button>
@@ -52,7 +52,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           C
         </button>
@@ -61,7 +61,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="text-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg text-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           Del
         </button>
@@ -70,7 +70,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           /
         </button>
@@ -81,7 +81,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           7
         </button>
@@ -90,7 +90,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           8
         </button>
@@ -99,7 +99,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           9
         </button>
@@ -108,7 +108,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           X
         </button>
@@ -119,7 +119,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           4
         </button>
@@ -128,7 +128,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           5
         </button>
@@ -137,7 +137,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           6
         </button>
@@ -146,7 +146,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           -
         </button>
@@ -157,7 +157,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           1
         </button>
@@ -166,7 +166,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           2
         </button>
@@ -175,7 +175,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           3
         </button>
@@ -184,7 +184,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           +
         </button>
@@ -195,7 +195,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className=" bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg  bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           (
         </button>
@@ -204,7 +204,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           0
         </button>
@@ -213,7 +213,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           )
         </button>
@@ -222,7 +222,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="bg-gray-300 /*hover:bg-gray-400*/ w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
         >
           =
         </button>
