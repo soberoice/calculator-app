@@ -3,10 +3,10 @@ import { FaBackspace } from "react-icons/fa";
 
 export default function Calculator({ values, setValues }) {
   function handleClick(value) {
-    const index = values.length;
+    const index = values.length - 1;
     if (value === "Del") {
       //if statement to selet previous number
-      const updatedValues = values.filter((i) => i != values[index - 1]);
+      const updatedValues = values.slice(0, index);
       setValues(updatedValues);
       return;
     } else if (value === "CE" || value === "c") {
@@ -14,9 +14,21 @@ export default function Calculator({ values, setValues }) {
       setValues([]);
       return;
     } else if (value === "=") {
-      //if statement for results
-      const result = eval(values.join(" "));
-      setValues([result]);
+      // Handle the calculation
+      try {
+        // Join the array into a string and evaluate it
+        const result = eval(values.join(""));
+
+        // If result is finite (e.g., no Infinity or NaN), show the result
+        if (Number.isFinite(result)) {
+          setValues([result]);
+        } else {
+          setValues(["Error"]);
+        }
+      } catch (error) {
+        // If there's any error in evaluation, display Error
+        setValues(["Error"]);
+      }
       return;
     }
     // set the values to be displayed

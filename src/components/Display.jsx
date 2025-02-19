@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 export default function Display({ values }) {
   // Join the array into a string separated by spaces
-  const display = values.join(" ");
-
+  const display = values.join("");
   return (
     <div>
       {/* display the result and the problem */}
       <input
+        id="display"
         placeholder="0"
         type="text"
         value={display}
