@@ -12,7 +12,7 @@ export default function Display({ values }) {
         type="text"
         value={display}
         readOnly
-        style={{ fontFamily: "digital-clock-font" }}
+        style={{ fontFamily: "digital-clock-font", boxSizing: "border-box" }}
         className="cursor-default focus:outline-none rounded-lg 
         mb-3 bg-white h-24 overflow-visible w-10/12 px-2 border-black text-right text-4xl font-bold text-black"
       />
