@@ -14,7 +14,7 @@ export default function Display({ values }) {
         readOnly
         style={{ fontFamily: "digital-clock-font" }}
         className="cursor-default focus:outline-none rounded-lg 
-        mb-3 bg-white h-24 leading-10 w-10/12 px-2 border-black text-right text-4xl font-bold text-black"
+        mb-3 bg-white h-24 overflow-visible w-10/12 px-2 border-black text-right text-4xl font-bold text-black"
       />
     </div>
   );
