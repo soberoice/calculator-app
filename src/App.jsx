@@ -14,7 +14,7 @@ export default function App() {
       }}
     >
       <div className="bg-opacity-50 w-auto bg-gray-100 text-center rounded-2xl bg-opacity-5">
-        <div className="">
+        <div className="p-2 py-5">
           <Display values={values} />
           <Calculator values={values} setValues={setValues} />
         </div>
