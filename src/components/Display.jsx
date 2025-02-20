@@ -12,8 +12,9 @@ export default function Display({ values }) {
         type="text"
         value={display}
         readOnly
-        className="display-font w-10/12 focus:outline-none rounded-lg 
-        mb-3 h-15 bg-white p-4 border-black text-right text-2xl font-bold"
+        style={{ fontFamily: "digital-clock-font" }}
+        className="cursor-default w-9/12 focus:outline-none rounded-lg 
+        mb-3 h-15 bg-white p-4 border-black text-right text-4xl font-bold text-black"
       />
     </div>
   );

@@ -222,7 +222,7 @@ export default function Calculator({ values, setValues }) {
           onClick={(e) => {
             handleClick(e.target.name);
           }}
-          className="rounded-lg bg-gray-300 hover:bg-gray-400 w-15 h-15 p-2 mx-2 m-1"
+          className="rounded-lg text-white bg-red-600 hover:bg-red-400 w-15 h-15 p-2 mx-2 m-1"
         >
           =
         </button>
