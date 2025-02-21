@@ -36,7 +36,10 @@ export default function Calculator({ values, setValues }) {
   }
 
   return (
-    <div className="font-bold">
+    <div
+      className="font-bold"
+      style={{ fontFamily: "digital-clock-font", boxSizing: "border-box" }}
+    >
       <div>
         <button
           name="CE"
