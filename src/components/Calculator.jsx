@@ -9,7 +9,7 @@ export default function Calculator({ values, setValues }) {
       const updatedValues = values.slice(0, index);
       setValues(updatedValues);
       return;
-    } else if (value === "CE" || value === "c") {
+    } else if (value === "c") {
       // if statement to clear display
       setValues([]);
       return;
@@ -42,13 +42,13 @@ export default function Calculator({ values, setValues }) {
     >
       <div>
         <button
-          name="CE"
+          name="00"
           onClick={(e) => {
             handleClick(e.target.name);
           }}
           className="rounded-lg bg-gray-300 hover:bg-gray-400 p-2 mx-2 m-1 w-15 h-15"
         >
-          CE
+          00
         </button>
         <button
           name="c"
